@@ -3,7 +3,7 @@ import React from 'react';
 import ExpenseItem from './ExpenseItem';
 
 const ExpensesList = (props) => {
-  let expensesContent = <p>No expenses found</p>;
+  let expensesContent = <h2>No expenses found</h2>;
 
   if (props.items.length > 0) {
     expensesContent = props.items.map((item) => (
